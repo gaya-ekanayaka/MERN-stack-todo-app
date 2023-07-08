@@ -1,0 +1,19 @@
+GET  http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text":"Make the table"
+}
+
+###
+
+
+DELETE http://localhost:3001/todo/delete/64a6a573f49dfd5394303e1d
+
+###
+
+PUT http://localhost:3001/todo/complete/64a6a58df49dfd5394303e21
